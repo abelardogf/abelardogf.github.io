@@ -1,0 +1,41 @@
+body {
+     background-color: #ebebeb;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     line-height: 28px;
+}
+
+p.cita {
+    font-style: italic;
+    text-align: center;
+}
+
+h2#principal {
+    color: #b33;
+}
+
+h2.destacado {
+    font-size: 40px;
+}
+
+img.diccionario {
+    width: 100%;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ol ::marker {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.etimologia {
+    color: rgb(75, 155, 75);
+    background-color: #ddd;
+}
+
+.gramatica {
+    color: #999;
+}
