@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background-amarillo {
+    background-color: #ff0;
+}
+
+.background-cyan {
+    background-color: #0ff;
+}
+
+.seccion {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.contenedor {
+    margin: 20px auto;
+    padding: 20px;
+    width: 450px;
+}
+
+.borde-izquierdo {
+    background-color: #fff;
+    border: 0px;
+    border-left: solid #f00 10px;
+}
+
+img.fluida {
+    width:100%;
+}
