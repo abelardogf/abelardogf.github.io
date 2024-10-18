@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#efefef;
+}
+
+.contenedor {
+    width: 60%;
+    min-width: 400px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.cuadro {
+    padding: 50px;
+    background-color:#fff;
+}
+
+/**********************
+   COLORES ESTÁTICOS
+*/
+
+.bg-gris-1 {
+    background-color: #d1d1d1;
+}
