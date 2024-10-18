@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#efefef;
+    background-color:#000;
 }
 
 .contenedor {
@@ -11,10 +11,87 @@ body {
     margin: 0 auto;
 }
 
+/**********************
+   CUADRO TEXTO
+*/
+
 .cuadro {
     padding: 50px;
     background-color:#fff;
+    transition: all 1s;
 }
+
+.cuadro:hover {
+    background-color: #faa;
+}
+
+/**********************
+   CIRCULOS
+*/
+
+.circulos {
+    width: 250px;
+    height:250px;
+    background-color:#fff;
+    margin: 0 auto;
+    position:relative;
+}
+
+.circulo {
+    position:absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: opacity 1s;
+    z-index: 0;
+    opacity: .5;
+}
+
+.circulo:hover {
+    z-index:1;
+    opacity: 1;
+}
+
+.uno {
+    background-color:#faa;
+}
+.dos {
+    background-color:#afa;
+    left: 100px;
+}
+.tres {
+    background-color:#aaf;
+    left: 50px;
+    top:100px;
+}
+
+/**********************
+   BARRAS
+*/
+
+.barras {
+    min-height: 100px;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.barra {
+    width: 20%;
+    height: 20px;
+    background-color: #00f;
+    margin-bottom: 5px;
+    box-shadow: #000 2px 2px 1px;
+}   
+
+.barra:hover {
+    width: 100%;
+}
+
+.b1 {transition: all linear 2s 300ms;}
+.b2 {transition: all ease 2s 300ms;}
+.b3 {transition: all ease-in 2s 300ms;}
+.b4 {transition: all ease-out 2s 300ms;}
+.b5 {transition: all ease-in-out 2s 300ms;}
 
 /**********************
    COLORES ESTÁTICOS
@@ -22,4 +99,8 @@ body {
 
 .bg-gris-1 {
     background-color: #d1d1d1;
+}
+
+.bg-gris-2 {
+    background-color: #c7c7c7;
 }
