@@ -70,7 +70,11 @@ body {
 
 .cambio-background {
     height: 300px;
-    transition: all 2s;
+    line-height:300px;
+    text-align:center;
+    font-size: 50px;
+    color:#eee;
+    transition: all 1s 1s;
 }
 
 .cambio-background.visible {
