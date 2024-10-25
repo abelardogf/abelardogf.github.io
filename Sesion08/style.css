@@ -10,7 +10,6 @@ body {
     min-width: 400px;
     max-width: 900px;
     margin: 0 auto;
-    border: 1px solid;
 }
 
 .card {
@@ -51,6 +50,7 @@ body {
     transform: skew(-5deg, 0deg);
 }
 
+/* Visible - cambio opac. */
 
 .ejemplo {
     width: 100px;
@@ -66,6 +66,16 @@ body {
     opacity: 1;
 }
 
+/* Visible - cambio fondo */
+
+.cambio-background {
+    height: 300px;
+    transition: all 2s;
+}
+
+.cambio-background.visible {
+    background-color:#000;
+}
 
 /************
 * COLORES
