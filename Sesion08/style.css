@@ -5,6 +5,10 @@ body {
     font-size: 20px;
 }
 
+main {
+    overflow: hidden;
+}
+
 .contenedor {
     width: 60%;
     min-width: 400px;
@@ -80,6 +84,32 @@ body {
 .cambio-background.visible {
     background-color:#000;
 }
+
+/* Visible - imagen movimiento */
+
+.img-fluid {
+    width: 50%;
+}
+
+.marco img {
+    transition: all 1s 1s;
+    transform: translate(1500px, 0);    
+}
+
+.marco.visible img {
+    transform: translate(0, 0);
+}
+
+
+.marco-2 img {
+    transition: all 1s 1s;
+    transform: translate(-1500px, 0);    
+}
+
+.marco-2.visible img {
+    transform: translate(75%, 0);
+}
+
 
 /************
 * COLORES
