@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.contenedor {
+    width: 60%;
+    min-width: 400px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Caja "indicador" */
+.indicador {
+    height: 10px;
+    width: 10px;
+    background-color: #000;
+    transition: all 1s;
+}
+
+.ind1.visible, .ind2.visible {
+    width: 100%; 
+    /* transform: rotate(90deg);*/
+    /*margin-left: 90%;*/
+    /*border-radius: 20px;*/   
+}
+
+/* img */
+.filtrada {
+    width: 100%;
+    filter: sepia(100%);
+    transition: all 1s 1s;
+}
+
+.filtrada.visible {
+    filter: sepia(0%);
+}
+
+/* H2 secciones */
+
+h2 {
+    color: #ddd;
+    transition: all 1s 500ms;
+}
+
+.seccion1.visible, .seccion2.visible {
+    color: #000;
+}
