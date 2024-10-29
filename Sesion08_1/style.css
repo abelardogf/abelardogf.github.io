@@ -22,6 +22,15 @@ body {
     border-left: 50px solid #fff;
 }
 
+/* PARALAJE */
+
+.parallax-window {
+    height:300px;
+    width:100%;
+    background:transparent;
+}
+
+
 .ind1.visible, .ind2.visible {
     /*width: 100%; */
      transform: rotate(90deg);

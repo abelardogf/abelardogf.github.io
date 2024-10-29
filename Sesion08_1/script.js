@@ -1,18 +1,22 @@
 $(window).scroll(function(){
+    
+    // PARALLAX
+    $('.parallax-window').parallax({imageSrc: 'madrid.jpg' });
 
-    /*
-    var lista = [$(".seccion1"), $(".seccion2"), $(".ind1"), $(".ind2"), $(".filtrada")];
+    // VISIBLE - INVISIBLE
+
+    var lista = [".seccion1", ".seccion2", ".ind1", ".ind2", ".filtrada"];
 
     lista.forEach(function(element) {
-        if (element.visible(true)) {
+        if ($(element).visible(true)) {
             //Añade la clase “visible”
-            element.addClass("visible");
+            $(element).addClass("visible");
         } else {
             //Si no es visible quita:
-            element.removeClass("visible");
+            $(element).removeClass("visible");
         }
     });
-*/
+/*
     
     // INICIO COPIA
     //Si el elemento es visible
@@ -70,4 +74,7 @@ $(window).scroll(function(){
     }
     // FINAL COPIA     
 
+*/
+
 });
+
