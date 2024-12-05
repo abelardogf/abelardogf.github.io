@@ -1,0 +1,64 @@
+@font-face {
+    src: url("archivo.ttf");
+    font-family: "mifuente"
+}
+
+html {
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.full {
+    width: 100%;
+    height: 100vh;
+}
+
+.verde {
+    background-color: #8d8;
+}
+
+.amarillo {
+    background-color: #ff0;
+}
+
+.hero {
+    background-image: url("https://picsum.photos/1080/720");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.mensaje p {
+    font-size: 4rem;
+    background-color:#fff;
+}
+
+.contenedor {
+    width: 60%;
+    min-width: 400px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.6rem;   
+}
+
+.resaltado {
+    padding: 1rem;
+    background-color: #ddd;
+}
+
+.resaltado h3 {
+    font-size: 2rem;
+}
