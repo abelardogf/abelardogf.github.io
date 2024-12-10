@@ -1,0 +1,15 @@
+.rounded {
+    border-radius: 40px !important;
+}
+
+.ejemplo {
+    height:100px;
+}
+
+.bg-rosa {
+    background-color: rgb(253, 187, 250);
+}
+
+.bg-rojo {
+    background-color: #f77;
+}
