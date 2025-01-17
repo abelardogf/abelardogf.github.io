@@ -1,11 +1,13 @@
 function setup() {
-    createCanvas(windowWidth, windowHeight);    
+    var canvas = createCanvas(windowWidth,windowHeight);  
+    canvas.parent("processing");
+    background(255);  
   }
   
-  function draw() {
+function draw() {
     stroke(50,50);
     line(mouseX, 0, mouseX, height);
-  }
+}
 
 
 function windowResized() {
